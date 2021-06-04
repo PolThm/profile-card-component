@@ -22,7 +22,7 @@ body {
 	left: 50%;
 }
 
-main {
+.card {
 	width: 300px;
 	border-radius: 1rem;
 	overflow: hidden;
@@ -31,13 +31,13 @@ main {
 	box-shadow: 0 10px 50px -30px #000000;
 }
 
-section {
+.card__body {
 	position: relative;
 	display: flex;
 	flex-direction: column;
 }
 
-section > * {
+.card__body > * {
 	height: 140px;
 }
 
@@ -81,14 +81,14 @@ section > * {
 	font-size: 0.85rem;
 }
 
-footer {
+.card__footer {
 	position: relative;
 	background: white;
 	padding: 1.5rem;
 	display: flex;
 }
 
-.stats {
+.stat {
 	flex-basis: 100%;
 	display: flex;
 	flex-direction: column;
@@ -96,12 +96,12 @@ footer {
 	padding: 0 0.5rem;
 }
 
-.stats--number {
+.stat__number {
 	font-size: 1.1rem;
 	font-weight: bold;
 }
 
-.stats--detail {
+.stat__detail {
 	margin-top: 0.5rem;
 	color: hsl(0, 0%, 59%);
 	font-size: 0.75rem;
