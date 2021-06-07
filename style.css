@@ -6,7 +6,7 @@ body {
 	font-family: 'Kumbh Sans', sans-serif;
 	background:
 		url("images/bg-pattern-top.svg") right calc(47vw + 15%) bottom calc(65vh - 15vw) no-repeat,
-		url("images/bg-pattern-bottom.svg") left calc(47vw + 15%) top calc(65vh - 15vw) no-repeat,
+		url("images/bg-pattern-bottom.svg") left calc(40vw + 25%) top calc(72vh - 10vw) no-repeat,
 		hsl(185, 75%, 39%);
 }
 
@@ -26,7 +26,7 @@ body {
 }
 
 .card__body > * {
-	height: 140px;
+	height: 145px;
 }
 
 .profile-picture {
